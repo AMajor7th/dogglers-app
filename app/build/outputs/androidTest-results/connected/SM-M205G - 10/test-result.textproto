@@ -1,0 +1,68 @@
+# 2022-07-27T07:25:52.541Z:
+test_suite_meta_data {
+  scheduled_test_case_count: 1
+}
+test_status: PASSED
+test_result {
+  test_case {
+    test_class: "VerticalListTests"
+    test_package: "com.example.dogglers"
+    test_method: "vertical_scroll_content_at_first_position"
+    start_time {
+      seconds: 1658906749
+      nanos: 620000000
+    }
+    end_time {
+      seconds: 1658906751
+      nanos: 830000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\PC\\AndroidStudioProjects\\android-basics-kotlin-dogglers-app-main\\app\\build\\outputs\\androidTest-results\\connected\\SM-M205G - 10\\logcat-com.example.dogglers.VerticalListTests-vertical_scroll_content_at_first_position.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\PC\\AndroidStudioProjects\\android-basics-kotlin-dogglers-app-main\\app\\build\\outputs\\androidTest-results\\connected\\SM-M205G - 10\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\PC\\AndroidStudioProjects\\android-basics-kotlin-dogglers-app-main\\app\\build\\outputs\\androidTest-results\\connected\\SM-M205G - 10\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\PC\\AndroidStudioProjects\\android-basics-kotlin-dogglers-app-main\\app\\build\\outputs\\androidTest-results\\connected\\SM-M205G - 10\\cpuinfo"
+    }
+  }
+}
+output_artifact {
+  label {
+    label: "test-results.log"
+    namespace: "com.google.testing.platform.runtime.android.driver.AndroidInstrumentationDriver"
+  }
+  source_path {
+    path: "C:\\Users\\PC\\AndroidStudioProjects\\android-basics-kotlin-dogglers-app-main\\app\\build\\outputs\\androidTest-results\\connected\\SM-M205G - 10\\testlog\\test-results.log"
+  }
+  type: TEST_DATA
+  mime_type: "text/plain"
+}
